@@ -2,8 +2,8 @@ module.exports = {
   devtool: 'eval',
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
-		'webpack/hot/dev-server',
-		'./app/app.jsx'
+    'webpack/hot/dev-server',
+    './app/app.jsx'
   ],
   output: {
     filename: "bundle.js",
